@@ -7,7 +7,6 @@ deposit = []
 
 for bank, rate in per_cent.items():
     interest = money * Decimal(str(rate)) / Decimal('100')
-    deposit.append(str(bank))
     deposit.append(str(interest))
 
 print("Депозиты:", deposit)
