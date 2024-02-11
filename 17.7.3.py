@@ -9,7 +9,5 @@ for bank, rate in per_cent.items():
     interest = money * Decimal(str(rate)) / Decimal('100')
     deposit.append(str(interest))
 
-print("Депозиты:", deposit)
-
 max_deposit = max(deposit)
-print("Максимальная сумма, которую вы можете заработать:", max_deposit)
+print("Максимальная сумма, которую вы можете заработать - ", max_deposit)
