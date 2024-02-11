@@ -12,4 +12,4 @@ for bank, rate in per_cent.items():
 print("Депозиты:", deposit)
 
 max_deposit = max(deposit)
-print("Самое большое число в депозите:", max_deposit)
+print("Максимальная сумма, которую вы можете заработать:", max_deposit)
